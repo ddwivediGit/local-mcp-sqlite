@@ -696,7 +696,7 @@ wheels = [
 ]
 
 [[package]]
-name = "llamaindex-mcp"
+name = "local-mcp-sqlite"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
