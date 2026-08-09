@@ -1,0 +1,16 @@
+[project]
+name = "local-mcp-sqlite"
+version = "0.1.0"
+description = "Local MCP demo with a LangChain client and SQLite-backed MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi-mcp>=0.2.0",
+    "ipykernel>=6.29.5",
+    "langchain>=1.0.0",
+    "langchain-mcp-adapters>=0.1.0",
+    "langchain-ollama>=0.3.0",
+    "langgraph>=0.6.0",
+    "linkup-sdk>=0.2.4",
+    "mcp[cli]>=1.6.0",
+]
